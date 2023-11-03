@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hier wird ein Bild eingefügt-->
+    <h2>Webseite planen - Meilensteine im Code einfügen</h2>
+    <img src="publishbild.jpg" alt="uebersichtbild" width="1000" height="333">
+
+    <form id="taskForm">
+        <fieldset>
+            <legend>Aufgaben</legend>
+            <input type="checkbox" name="task" value="Teamfindung">
+            <label for="task1">Teamfindung</label><br>
+
+            <input type="checkbox" name="task" value="KonzeptErstellen">
+            <label for="task2">Konzept erstellen</label><br>
+
+            <input type="checkbox" name="task" value="DomainSuche">
+            <label for="task3">Domain-Suche</label><br>
+            <!--zusätzlicher Meileinstein-->
+            <input type="checkbox" name="task" value="wireframe">
+            <label for="task3">wireframe</label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Team 1</legend>
+            <div>
+                <label for="zeit">Zeit:</label>
+                <input type="text" id="zeitraum" name="zeitraum">
+            </div>
+            <div>
+                <label for="team">Team:</label>
+                <input type="text" id="team" name="team">
+            </div>
+            <div>
+                <label for="nur_x">Nur X:</label>
+                <input type="text" id="nur_x" name="nur_x">
+            </div>
+        </fieldset>
+
+        <p id="taskCountMessage">Sie haben 0 Aufgaben erledigt.</p>
+
+        <button type="button" id="resetButton">Löschen</button>
+    </form>
+
+    <div id="impressum">
+        <h5>Impressum</h5>
+        <p>
+        </p>
+        <!-- Alternativ könntest du anstelle des <p> Elements ein <a> Element für den Impressumslink einfügen -->
+        <!-- <a href="link-zum-impressum">Impressum</a> -->
+    </div>
+
+    <div id="notizen">
+        <h5>Notizen</h5>
+        <textarea id="notizfeld" rows="6" cols="40" placeholder="Hier können Sie Ihre Notizen eingeben"></textarea>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

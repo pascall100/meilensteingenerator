@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f0f0f0; /* Hintergrundfarbe des Body */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4 {
+    margin-top: 20px;
+    font-size: 24px;
+    /* Weitere Stile für die Überschrift hinzufügen, wie z.B. Farbe, Abstand, etc. */
+}
+
+.container {
+    width: 50%; /* Breite des Inhalts anpassen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    box-shadow: 0 0 10px rgba(233, 108, 108, 0.1); /* Schatten um das Formular */
+    border-radius: 10px; /* Abgerundete Ecken für das Formular */
+    padding: 20px;
+    background-color: #f4f4f4; /* Hellgraue Hintergrundfarbe des Formulars */
+    margin-top: 20px;
+}
+
+fieldset {
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: #f6f6f6; /* Hintergrundfarbe des Feldsets */
+}
+
+/* Anpassung für die Anordnung der Checkboxen */
+fieldset input[type="checkbox"] {
+    display: block;
+    margin: 10px auto;
+}
+
+/* Neue Anpassungen für die zusätzlichen Inputfelder */
+input[type="text"] {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+label {
+    margin-right: 6px;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #3498db; /* Hellblaue Hintergrundfarbe des Buttons */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #042e4a; /* Dunklere Blaufärbung beim Hovern */
+}
